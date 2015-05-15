@@ -3,7 +3,7 @@
 
 The python implementation is in the /code folder. Change the directory there to get started.
 
-#Usage:
+##Usage:
 1.To reproduce the experiments, including the training and evaluations after each iteration, run:
 
 python  script2.py  config.txt
@@ -20,15 +20,15 @@ Note: Python2 is supported and all corpora are assumed to be in UTF-8 encoding.
 
 At the end of each epoch, evaluation on the testing data is given. And in the end of the whole training (10 epochs), F-scores, OOV-Recall and IV recall for each epoch will be reported again. Evaluations are based on the SIGHAN official script (in "working_data" folder)
 
-#Requriement:
-##Required Software:
+##Requriement:
+###Required Software:
 - Linux-like environment  (tested on Ubuntu 14.4 and Mac OSX )
 - python 2.7 or above (but not Python 3.X)
 - Python numpy package 1.9 or above
 - Python gensim package 0.10.3 (we use their save/load/math routines and also the threading, lookup-table etc from their word2vec implementation, which is modified a bit and included here)
 
 
-##Required Data
+###Required Data
 PKU corpus from 2nd SIGHAN word segmentation bakeoff (http://www.sighan.org/bakeoff2005/) is in the folder "working_data", which include:
 
 - score (official scoring script: http://www.sighan.org/bakeoff2003/score)
