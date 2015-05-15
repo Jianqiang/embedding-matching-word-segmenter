@@ -1,7 +1,7 @@
 The python implementation is in the /code folder. Change the directory there to get started.
 
 #Usage:
-1.To reproduce the experiments, including the training and evaluations after each iteration, run:
+1. To reproduce the experiments, including the training and evaluations after each iteration, run:
 
 python  script2.py  config.txt
 
