@@ -1,6 +1,7 @@
 #Embedding Matching for Chinese Word Segmentation
 
 This repository hosts the code for the following paper:
+
 Ma and Hinrichs. 2015. Accurate Linear-Time Chinese Word Segmentation via Embedding Matching. In *Proceeding of ACL*.
 
 
