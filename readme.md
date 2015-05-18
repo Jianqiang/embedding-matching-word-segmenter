@@ -1,10 +1,13 @@
-#The code for the ACL-2015 paper "Accurate Linear-Time Chinese Word Segmentation via Embedding Matching"
+#Embedding Matching for Chinese Word Segmentation
+
+This repository hosts the code for the following paper:
+Ma and Hinrichs. 2015. Accurate Linear-Time Chinese Word Segmentation via Embedding Matching. In *Proceeding of ACL*.
 
 
 The python implementation is in the /code folder. Change the directory there to get started.
 
 ##Usage:
-1.To reproduce the experiments, including the training and evaluations after each iteration, run:
+1. To reproduce the experiments, including the training and evaluations after each iteration, run:
 
 python  script2.py  config.txt
 
@@ -28,7 +31,7 @@ At the end of each epoch, evaluation on the testing data is given. And in the en
 - Python gensim package 0.10.3 (we use their save/load/math routines and also the threading, lookup-table etc from their word2vec implementation, which is modified a bit and included here)
 
 
-###Required Data
+### Required Data
 PKU corpus from 2nd SIGHAN word segmentation bakeoff (http://www.sighan.org/bakeoff2005/) is in the folder "working_data", which include:
 
 - score (official scoring script: http://www.sighan.org/bakeoff2003/score)
