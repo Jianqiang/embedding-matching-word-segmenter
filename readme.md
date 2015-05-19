@@ -44,3 +44,6 @@ PKU corpus from 2nd SIGHAN word segmentation bakeoff (http://www.sighan.org/bake
 - pku.dict (the list of words that have occurred in pku_train, for evaluation)
 
 MSR and other dataset can be prepared in similar manner (.raw, .100.txt test.10, and .dict files are needed) and update config.txt accordingly.
+
+------------- 
+This software is open source software released under the GNU LGPL license. Copyright (c) 2015-now Jianqiang Ma
