@@ -2,7 +2,7 @@
 
 This repository hosts the code for the following paper:
 
-Ma and Hinrichs. 2015. Accurate Linear-Time Chinese Word Segmentation via Embedding Matching. In *Proceedings of ACL*.
+Ma and Hinrichs. 2015. Accurate Linear-Time Chinese Word Segmentation via Embedding Matching. In *Proceedings of ACL*. http://aclweb.org/anthology/P15-1167
 
 
 The python implementation is in the /code folder. Change the directory there to get started.
